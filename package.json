@@ -60,6 +60,7 @@
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3050320220729001",
     "@dcloudio/vite-plugin-uni": "3.0.0-alpha-3050320220729001",
     "node-sass": "^7.0.1",
+    "sass": "^1.54.4",
     "sass-loader": "^13.0.2",
     "unplugin-vue-components": "^0.22.4",
     "vite": "^2.9.14"

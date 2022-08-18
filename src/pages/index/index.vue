@@ -1,8 +1,12 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png"></image>
-    <view class="text-area">
-      <text class="title">{{ title }}</text>
+    <view class="msg-box">
+      <van-icon
+        name="envelop-o"
+        color="#f56a79"
+        size="120rpx"
+        :badge="msgNum"
+      />
     </view>
   </view>
 </template>
@@ -11,7 +15,7 @@
 export default {
   data() {
     return {
-      title: "Hello",
+      msgNum: 12,
     };
   },
   onLoad() {},
@@ -23,25 +27,10 @@ export default {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  .logo {
-    height: 200rpx;
-    width: 200rpx;
-    margin-top: 200rpx;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50rpx;
-  }
-
-  .text-area {
-    display: flex;
-    justify-content: center;
-    .title {
-      font-size: 36rpx;
-      color: #8f8f94;
-    }
+  // align-items: center;
+  // justify-content: center;
+  .msg-box {
+    padding: 36rpx;
   }
 }
 </style>

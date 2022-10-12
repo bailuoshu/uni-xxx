@@ -3,10 +3,48 @@
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "uni-app"
+        "navigationBarTitleText": "we - app"
+      }
+    },
+    {
+      "path": "pages/mock/index",
+      "style": {
+        "navigationBarTitleText": "mock"
+      }
+    },
+    {
+      "path": "pages/setting/index",
+      "style": {
+        "navigationBarTitleText": "setting"
       }
     }
   ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#ff6e6e",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/BarIcon/Home.png",
+        "selectedIconPath": "static/BarIcon/OnHome.png"
+      },
+      {
+        "pagePath": "pages/mock/index",
+        "text": "商城",
+        "iconPath": "static/BarIcon/Mall.png",
+        "selectedIconPath": "static/BarIcon/OnMall.png"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "设置",
+        "iconPath": "static/BarIcon/Setting.png",
+        "selectedIconPath": "static/BarIcon/OnSetting.png"
+      }
+    ]
+  },
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
